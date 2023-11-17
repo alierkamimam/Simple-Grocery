@@ -1,4 +1,4 @@
-package pojo.request;
+package pojo.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,9 +7,11 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class RegisterClientRequest {
+public class GetCartItems {
 
-    private String clientName;
+    Integer Id;
 
-    private String clientEmail;
+    Integer productId;
+
+    Integer quantity;
 }

@@ -13,7 +13,7 @@ public class GetProduct extends BaseClass {
     ObjectMapper responseMapper = new ObjectMapper();
     GetProductResponse responseProduct;
 
-    @Given("Retrieves the product detail with the given {int}, then the response status code should be {int}")
+    @Given("Retrieves the product detai with the given {int}, then the response status code should be {int}")
     public void retrieves_the_product(Integer productId, Integer expectedStatusCode) throws JsonProcessingException {
 
         spec = new RequestSpecBuilder()

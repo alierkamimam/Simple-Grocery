@@ -7,9 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class RegisterClientRequest {
+public class AddItemRequest {
 
-    private String clientName;
-
-    private String clientEmail;
+    private Integer productId;
 }
